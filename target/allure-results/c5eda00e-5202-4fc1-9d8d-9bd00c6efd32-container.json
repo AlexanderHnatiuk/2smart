@@ -1,0 +1,1 @@
+{"uuid":"c5eda00e-5202-4fc1-9d8d-9bd00c6efd32","name":"tooSmart.BaseTest.SetUp","description":"","start":1574709341301,"stop":1574709343821,"children":["a6dd4b56-4601-45e4-bb30-4ddf54c2f24a"],"befores":[{"name":"SetUp","status":"passed","stage":"finished","description":"","start":1574709341302,"stop":1574709343820}]}
