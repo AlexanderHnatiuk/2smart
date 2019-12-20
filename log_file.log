@@ -191,3 +191,73 @@
 2019-11-25 21:16:21 INFO  Driver:17 - Open the browser: 
 2019-11-25 21:16:23 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
 2019-11-25 21:16:29 INFO  Driver:38 - Closing driver
+2019-11-26 10:54:03 INFO  Driver:17 - Open the browser: 
+2019-11-26 10:54:07 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-11-26 10:56:26 INFO  Driver:17 - Open the browser: 
+2019-11-26 10:56:28 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-11-26 10:57:13 INFO  Driver:17 - Open the browser: 
+2019-11-26 10:57:15 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-11-26 10:57:21 INFO  Driver:38 - Closing driver
+2019-11-26 11:01:31 INFO  Driver:17 - Open the browser: 
+2019-11-26 11:01:52 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-11-26 11:06:33 INFO  Driver:17 - Open the browser: 
+2019-11-26 11:06:36 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-11-26 11:06:42 INFO  Driver:38 - Closing driver
+2019-11-26 11:13:28 INFO  Driver:17 - Open the browser: 
+2019-11-26 11:13:31 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-11-26 11:13:37 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid 0bb4d9df-20c2-4daf-b98a-a7abb624203a
+2019-11-26 11:13:37 INFO  Driver:38 - Closing driver
+2019-11-26 11:39:35 INFO  Driver:17 - Open the browser: 
+2019-11-26 11:40:28 INFO  Driver:17 - Open the browser: 
+2019-11-26 11:40:32 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-11-26 11:45:19 INFO  Driver:17 - Open the browser: 
+2019-11-26 11:45:22 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-11-26 11:45:27 INFO  Driver:38 - Closing driver
+2019-12-20 16:51:35 INFO  Driver:17 - Open the browser: 
+2019-12-20 16:54:50 INFO  Driver:17 - Open the browser: 
+2019-12-20 16:54:53 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 16:55:03 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid 6e17de5c-5158-4227-81ec-9147d1d2b5eb
+2019-12-20 16:55:03 INFO  Driver:38 - Closing driver
+2019-12-20 16:56:58 INFO  Driver:17 - Open the browser: 
+2019-12-20 16:57:00 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 16:57:09 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid dff98930-da28-4d76-9f47-82bf11fae1bb
+2019-12-20 16:57:09 INFO  Driver:38 - Closing driver
+2019-12-20 17:03:35 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:03:39 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:03:50 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid a9fb5dfa-5b1a-4c66-805b-b9289d16f466
+2019-12-20 17:03:50 INFO  Driver:38 - Closing driver
+2019-12-20 17:04:06 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:04:09 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:04:18 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid dafa7eba-f7e1-4749-9256-9d792496451c
+2019-12-20 17:05:02 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:05:05 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:05:13 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid 404473e6-4135-4e1f-a103-2c7a736d2471
+2019-12-20 17:09:10 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:09:13 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:09:20 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid ad10506c-bdc1-469b-aa66-5ba498f823a3
+2019-12-20 17:09:52 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:09:55 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:10:23 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid d25d1447-a6fc-4cc1-83e0-880ae24019b4
+2019-12-20 17:11:01 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:11:04 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:11:11 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid 7b6961e6-6366-4242-b35a-d10d3f06c605
+2019-12-20 17:12:23 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:12:26 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:12:34 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid 6d190181-df31-451a-8cf6-f2f292655484
+2019-12-20 17:13:09 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:13:12 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:13:20 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid 9badfbae-761c-4748-a4a5-a21fd88df0f5
+2019-12-20 17:13:47 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:13:50 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:19:52 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:19:55 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:58:01 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:58:04 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:58:14 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid 96481aae-912e-42d1-a79d-28aaa7d2c0d7
+2019-12-20 17:59:38 INFO  Driver:17 - Open the browser: 
+2019-12-20 17:59:41 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 17:59:55 DEBUG AllureLifecycle:254 - Adding attachment to item with uuid f8c74e91-7061-405f-8e31-75dc3227ff3b
+2019-12-20 18:02:13 INFO  Driver:17 - Open the browser: 
+2019-12-20 18:02:16 INFO  Driver:28 - Opening the page: http://localhost:3000/admin
+2019-12-20 18:09:36 INFO  Driver:17 - Open the browser: 
+2019-12-20 18:09:40 INFO  Driver:28 - Opening the page: http://localhost:3000/admin

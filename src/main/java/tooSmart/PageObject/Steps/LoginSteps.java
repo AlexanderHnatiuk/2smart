@@ -37,7 +37,7 @@ public class LoginSteps extends BaseSteps{
     }
 
     @Step("Залогинится: {login}, {pass}")
-    public DashboardPage loginAs(String login, String pass){
+    public DashboardSteps loginAs(String login, String pass){
         try {
             objectManager.getLogInPage().LoginInput.sendKeys(login);
             objectManager.getLogInPage().PassInput.sendKeys(pass);
@@ -51,7 +51,7 @@ public class LoginSteps extends BaseSteps{
         } catch (RuntimeException e){
             logs.error("Не отображается сайд бар на странице Dashboard");
         }
-        return getDashboardPage();
+        return getDashboardSteps();
     }
 
 
@@ -68,7 +68,7 @@ public class LoginSteps extends BaseSteps{
     }
 
     @Step("Логин c помощью клавишей Tab и Enter")
-    public LoginSteps loginWithTabAndEnter(String login, String pass){
+    public DashboardSteps loginWithTabAndEnter(String login, String pass){
         try {
             objectManager.getLogInPage().LoginInput.sendKeys(login);
             objectManager.getLogInPage().LoginInput.sendKeys(Keys.TAB);
@@ -78,6 +78,13 @@ public class LoginSteps extends BaseSteps{
             logs.error(e);
             throw e;
         }
-        return this;
-    }
+        try {
+            asserts().assertTrue(objectManager.getDashboardPage().DashboardButt.isDisplayed());
+        } catch (RuntimeException e){
+            logs.error("Не отображается сайд бар на странице Dashboard");
+        }
+        return getDashboardSteps();
+        }
+
+
 }

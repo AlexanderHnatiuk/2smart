@@ -20,8 +20,8 @@ public class BaseTest {
         steps = objectManager.getLoginSteps();
     }
 
-    @AfterMethod
-    public void ThrowDown(){
-        driver.quit();
-    }
+//    @AfterMethod
+//    public void ThrowDown(){
+//        driver.quit();
+//    }
 }

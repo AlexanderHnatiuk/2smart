@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="282a19f2-cddc-4db8-925a-d21b2f31a948" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="282a19f2-cddc-4db8-925a-d21b2f31a948" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/automationFirst.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/log_file.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/Driver/Asserts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/Driver/Asserts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/Driver/ObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/Driver/ObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/Driver/Screenshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/DashboardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/DashboardSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tooSmart/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tooSmart/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tooSmart/Listeners/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tooSmart/Listeners/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tooSmart/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tooSmart/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/automationFirst.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/Driver/Asserts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/Driver/Asserts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/Driver/ObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/Driver/ObjectManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/Driver/Screenshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Pages/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/BaseSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/BaseSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/DashboardSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/DashboardSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/automationFirst.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tooSmart/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tooSmart/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tooSmart/Listeners/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tooSmart/Listeners/Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tooSmart/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tooSmart/LoginTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,27 +56,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1TySZdvhpQhl3AZxaguExnSEqfW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../firstAutomationProject" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tooSmart.Listeners" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.LoginTests.loginWithInvalidLoginAndPass">
+  <component name="RunManager" selected="TestNG.LoginTests.logout">
     <configuration name="LoginTests.loginEmpty" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationFirst" />
       <extension name="coverage">
@@ -154,15 +180,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTests.logout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationFirst" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tooSmart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tooSmart" />
+      <option name="MAIN_CLASS_NAME" value="tooSmart.LoginTests" />
+      <option name="METHOD_NAME" value="logout" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTests.logout" />
         <item itemvalue="TestNG.LoginTests.loginWithInvalidLoginAndPass" />
-        <item itemvalue="TestNG.LoginTests.loginSuccessfull" />
-        <item itemvalue="TestNG.LoginTests.loginWithрTabAndEnter" />
-        <item itemvalue="TestNG.LoginTests.loginWithTabAndEnter" />
         <item itemvalue="TestNG.LoginTests.loginEmpty" />
+        <item itemvalue="TestNG.LoginTests.loginWithTabAndEnter" />
+        <item itemvalue="TestNG.LoginTests.loginSuccessfull" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -176,5 +232,40 @@
       <updated>1574430898450</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="167" y="218" width="1653" height="882" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576854156007">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state x="167" y="218" width="1653" height="882" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1576854156007" />
+    <state width="1807" height="259" key="GridCell.Tab.0.bottom" timestamp="1576858172486">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state width="1807" height="259" key="GridCell.Tab.0.bottom/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1576858172486" />
+    <state width="1807" height="259" key="GridCell.Tab.0.center" timestamp="1576858172485">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state width="1807" height="259" key="GridCell.Tab.0.center/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1576858172485" />
+    <state width="1807" height="259" key="GridCell.Tab.0.left" timestamp="1576858172485">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state width="1807" height="259" key="GridCell.Tab.0.left/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1576858172485" />
+    <state width="1807" height="259" key="GridCell.Tab.0.right" timestamp="1576858172485">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state width="1807" height="259" key="GridCell.Tab.0.right/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1576858172485" />
   </component>
 </project>

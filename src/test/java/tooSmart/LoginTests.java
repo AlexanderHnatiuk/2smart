@@ -11,14 +11,13 @@ import tooSmart.Listeners.Listener;
 @Feature("Страница логина")
 public class LoginTests extends BaseTest {
 
-    @Test
+    @Test (priority = 4)
     @Severity(SeverityLevel.BLOCKER)
     @Description("Логин с валидными данными")
     public void loginSuccessfull(){
         steps
                 .open(ADMIN_URL_LOCAL)
                 .loginAs("admin","111111");
-
     }
 
     @Test (priority = 1)
@@ -33,12 +32,12 @@ public class LoginTests extends BaseTest {
 
     @Test (priority = 2)
     @Severity(SeverityLevel.NORMAL)
-    @Description("Логин с пустыми полями Login и Password:")
+    @Description("Логин с невалидными Login и Password:")
     public void loginWithInvalidLoginAndPass(){
         steps
                 .open(ADMIN_URL_LOCAL)
                 .login("Invalid","123456")
-                .asserts().loginErrors("The login you entered is incorrect","The password you entered is incorrect")
+                .asserts().assertsErrorField("The values you entered are incorrect")
                 .loginErrorsStyle(true);
     }
 
@@ -49,6 +48,15 @@ public class LoginTests extends BaseTest {
         steps
                 .open(ADMIN_URL_LOCAL)
                 .loginWithTabAndEnter("admin","111111");
+    }
+
+    @Test (priority = 5)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Логаут: ")
+    public void logout(){
+        steps.open(ADMIN_URL_LOCAL)
+                .loginAs("admin","111111")
+                .logOut();
     }
 
 //    @Test (priority = 3)

@@ -15,6 +15,13 @@ public class Asserts {
         this.objectManager = objectManager;
     }
 
+
+    @Step("Проверка текста елемента")
+    public Asserts assertsErrorField(String error){
+        Assert.assertEquals(error,driver.getWebDriver().findElement(By.xpath("//div[contains(text(),'" + error +"')]")).getText());
+        return this;
+    }
+
     @Step("Проверка на true")
     public Asserts assertTrue(boolean condition) {
         Assert.assertTrue(condition);
@@ -27,7 +34,7 @@ public class Asserts {
         return this;
     }
 
-    @Step("Проверка текста ошибки полей Login и Pass")
+    @Step("Проверка текста ошибки Login и Pass")
     public Asserts loginErrors(String login, String pass){
         Assert.assertEquals(login,driver.getWebDriver().findElement(By.xpath("//div[contains(text(),'" + login +"')]")).getText());
         Assert.assertEquals(pass,driver.getWebDriver().findElement(By.xpath("//div[contains(text(),'" + pass +"')]")).getText());
