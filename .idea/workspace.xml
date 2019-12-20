@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="282a19f2-cddc-4db8-925a-d21b2f31a948" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/automationFirst.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/log_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/Driver/Asserts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/Driver/Asserts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/Driver/ObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/Driver/ObjectManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/Driver/Screenshot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/BaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/DashboardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/DashboardSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tooSmart/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tooSmart/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tooSmart/Listeners/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tooSmart/Listeners/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tooSmart/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tooSmart/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/automationFirst.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/Driver/Asserts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/Driver/Asserts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/Driver/ObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/Driver/ObjectManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/Driver/Screenshot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Pages/DashboardPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/BaseSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/BaseSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/DashboardSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/DashboardSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tooSmart/PageObject/Steps/LoginSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/automationFirst.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tooSmart/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tooSmart/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tooSmart/Listeners/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tooSmart/Listeners/Listener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tooSmart/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tooSmart/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Pages/Settings/SecurityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Pages/Settings/SecurityPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/SecuritySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tooSmart/PageObject/Steps/SecuritySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tooSmart/SecurityTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tooSmart/SecurityTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

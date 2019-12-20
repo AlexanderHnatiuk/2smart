@@ -12,9 +12,16 @@ import tooSmart.PageObject.Steps.BaseSteps;
 
 public class SecurityTests extends BaseTest {
 
-//    @Test (priority = 1)
-//    @Severity(SeverityLevel.NORMAL)
-//    @Description("")
+    @Test (priority = 1)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Изменение пин кода с валидными данными")
+    public void changePIN(){
+        steps.loginAs("admin","111111")
+                .clickSettings()
+                .clickSecurityButt()
+                .submitPinForm("111111", "111111");
+
+    }
 
 
 

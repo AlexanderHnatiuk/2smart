@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import tooSmart.PageObject.Pages.DashboardPage;
 import tooSmart.PageObject.Pages.LogInPage;
 import tooSmart.PageObject.Pages.Settings.PreferencesPage;
+import tooSmart.PageObject.Pages.Settings.SecurityPage;
 import tooSmart.PageObject.Steps.DashboardSteps;
 import tooSmart.PageObject.Steps.LoginSteps;
 import tooSmart.PageObject.Steps.PreferencesSteps;
@@ -22,6 +23,7 @@ public class ObjectManager {
     private PreferencesSteps preferencesSteps;
     private PreferencesPage preferencesPage;
     private SecuritySteps securitySteps;
+    private SecurityPage securityPage;
 
 
 
@@ -41,6 +43,6 @@ public class ObjectManager {
     public DashboardPage getDashboardPage(){ return  (dashboardPage == null) ? dashboardPage = new DashboardPage(driver) : dashboardPage; }
     public Wait getWait(){ return (wait == null) ? wait = new Wait(driver): wait; }
     public PreferencesPage getPreferencesPage(){return (preferencesPage == null) ? preferencesPage= new PreferencesPage(driver) : preferencesPage;}
-
+    public SecurityPage getSecurityPage(){return (securityPage == null) ? securityPage = new SecurityPage(driver, this) : securityPage;}
 
 }
